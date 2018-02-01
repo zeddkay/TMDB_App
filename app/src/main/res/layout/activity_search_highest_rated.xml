@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zukhrufkhan.dps924zukhrufprojectv1.SearchHighestRated"
+    tools:visibility="visible">
+
+
+    <Button
+        android:id="@+id/buttonsearchHighestRated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/radioGroup4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Search"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <!--
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="146dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="142dp"
+        android:layout_below="@+id/textView8"
+        >
+-->
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="60dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonMovies"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Movies"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTVShows"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignStart="@+id/buttonsearchHighestRated"
+            android:layout_below="@+id/radioButtonMovies"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            android:text="TV Shows"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Please select the type of media you want to see the most popular items for:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!--</RadioGroup>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zukhrufkhan.dps924zukhrufprojectv1.SearchMovie">
+
+    <EditText
+        android:id="@+id/movieQuery"
+        android:layout_width="314dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:ems="10"
+        android:hint="Enter movie title here"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/buttonSearchMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieQuery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Search"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="127dp" />
+</RelativeLayout>
