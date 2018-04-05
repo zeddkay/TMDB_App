@@ -14,7 +14,13 @@ This app has 4 main functions:
 I plan on adding more features (such as filters, better looking pages) when I get some time. 
 In the meantime, the above features work.
 
-Screenshots and more details about my experience with this project can be found in the document:  	
+Here are some screenshots:         
+![Screenshot 1](https://github.com/zeddkay/TMDB_App/blob/master/Picture1.png)         
+![Screenshot 2](https://github.com/zeddkay/TMDB_App/blob/master/Picture2.png)       
+![Screenshot 3](https://github.com/zeddkay/TMDB_App/blob/master/Picture3.png)         
+
+
+More screenshots and more details about my experience with this project can be found in the document:  	
 https://github.com/zeddkay/TMDB_App/blob/master/DPS924FinalProjectReportZukhruf.docx.    
 
 To run the app, simply download or clone the repository, open up Android Studio, and let the gradle build finish. 
